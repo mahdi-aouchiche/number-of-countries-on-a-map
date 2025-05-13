@@ -64,3 +64,14 @@ int num_of_countries(vector<vector<int>>& map) {
 
     return count;
 }
+
+
+int assert(int test_number, int result, int expected) {
+    if (result == expected) {
+        cout << "Test " << test_number << ": passed! Expected: " << expected << ", got: " << result << endl;
+        return 1;
+    } else {
+        cout << "Test " << test_number << ": failed! Expected: " << expected << ", but got: " << result << endl;
+        return 0;
+    }
+}

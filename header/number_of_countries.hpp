@@ -8,5 +8,6 @@
 using namespace std;
 
 int num_of_countries(vector<vector<int>>& map); 
+int assert(int test_number, int result, int expected);
 
 #endif // __NUMBER_OF_COUNTRIES_HPP__
